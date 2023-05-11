@@ -8,7 +8,8 @@ public class PageEntry implements Comparable<PageEntry> {
         this.page = page;
         this.count = count;
     }
-    protected PageEntry(PageEntry pageEntry,int count){
+
+    protected PageEntry(PageEntry pageEntry, int count) {
         this.pdfName = pageEntry.getPdfName();
         this.page = pageEntry.getPage();
         this.count = count;

@@ -79,7 +79,7 @@ public class BooleanSearchEngine implements SearchEngine {
                                         new PageEntry(pageEntry, countNew));
                             }
                         }
-                    }else{
+                    } else {
                         request.add(pageEntry);
                     }
                 }
